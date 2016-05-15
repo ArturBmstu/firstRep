@@ -9,9 +9,9 @@ using namespace std;
 int main() {
 	Multimap map(2);
 	
-    IntObject* io = new IntObject(3);
-    IntObject* io2 = new IntObject(1);
-    IntObject* io3 = new IntObject(2);
+    	IntObject* io = new IntObject(3);
+    	IntObject* io2 = new IntObject(1);
+    	IntObject* io3 = new IntObject(2);
 	CharObject* co = new CharObject('r');
 	CharObject* co2 = new CharObject('e');
 	CharObject* co3 = new CharObject('d');
@@ -34,7 +34,7 @@ int main() {
 	map.add(io, so);
 	cout << map <<endl;
 
-    delete io;
+    	delete io;
 	delete io2;
 	delete io3;
 	delete co;
